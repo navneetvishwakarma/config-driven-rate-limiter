@@ -1,12 +1,12 @@
-package com.configdriven.ratelimiter.service;
+package com.vkteenvan.ratelimiter.service;
 
-import com.configdriven.ratelimiter.config.ClientConfig;
-import com.configdriven.ratelimiter.config.PolicyConfig;
-import com.configdriven.ratelimiter.core.PolicyType;
-import com.configdriven.ratelimiter.core.RateLimitDecision;
-import com.configdriven.ratelimiter.core.RejectionReason;
-import com.configdriven.ratelimiter.storage.InMemoryStateStore;
-import com.configdriven.ratelimiter.storage.StateStore;
+import com.vkteenvan.ratelimiter.config.ClientConfig;
+import com.vkteenvan.ratelimiter.config.PolicyConfig;
+import com.vkteenvan.ratelimiter.core.PolicyType;
+import com.vkteenvan.ratelimiter.core.RateLimitDecision;
+import com.vkteenvan.ratelimiter.core.RejectionReason;
+import com.vkteenvan.ratelimiter.storage.InMemoryStateStore;
+import com.vkteenvan.ratelimiter.storage.StateStore;
 import org.junit.jupiter.api.Test;
 
 import java.time.Instant;

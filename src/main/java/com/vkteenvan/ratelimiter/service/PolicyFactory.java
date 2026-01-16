@@ -1,10 +1,10 @@
-package com.configdriven.ratelimiter.service;
+package com.vkteenvan.ratelimiter.service;
 
-import com.configdriven.ratelimiter.config.PolicyConfig;
-import com.configdriven.ratelimiter.core.PolicyType;
-import com.configdriven.ratelimiter.core.RateLimitPolicy;
-import com.configdriven.ratelimiter.policies.FixedWindowPolicy;
-import com.configdriven.ratelimiter.policies.TokenBucketPolicy;
+import com.vkteenvan.ratelimiter.config.PolicyConfig;
+import com.vkteenvan.ratelimiter.core.PolicyType;
+import com.vkteenvan.ratelimiter.core.RateLimitPolicy;
+import com.vkteenvan.ratelimiter.policies.FixedWindowPolicy;
+import com.vkteenvan.ratelimiter.policies.TokenBucketPolicy;
 
 public final class PolicyFactory {
     private PolicyFactory() {}

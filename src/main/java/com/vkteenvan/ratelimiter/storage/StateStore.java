@@ -1,4 +1,4 @@
-package com.configdriven.ratelimiter.storage;
+package com.vkteenvan.ratelimiter.storage;
 
 public interface StateStore {
     FixedWindowState getFixedWindowState(String clientId, String policyId);

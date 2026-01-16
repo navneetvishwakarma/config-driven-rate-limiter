@@ -1,12 +1,12 @@
-package com.configdriven.ratelimiter.policies;
+package com.vkteenvan.ratelimiter.policies;
 
-import com.configdriven.ratelimiter.core.PolicyType;
-import com.configdriven.ratelimiter.core.RateLimitDecision;
-import com.configdriven.ratelimiter.core.RateLimitPolicy;
-import com.configdriven.ratelimiter.core.RejectionReason;
-import com.configdriven.ratelimiter.core.RequestContext;
-import com.configdriven.ratelimiter.storage.FixedWindowState;
-import com.configdriven.ratelimiter.storage.StateStore;
+import com.vkteenvan.ratelimiter.core.PolicyType;
+import com.vkteenvan.ratelimiter.core.RateLimitDecision;
+import com.vkteenvan.ratelimiter.core.RateLimitPolicy;
+import com.vkteenvan.ratelimiter.core.RejectionReason;
+import com.vkteenvan.ratelimiter.core.RequestContext;
+import com.vkteenvan.ratelimiter.storage.FixedWindowState;
+import com.vkteenvan.ratelimiter.storage.StateStore;
 
 public final class FixedWindowPolicy implements RateLimitPolicy {
     private final String policyId;

@@ -1,4 +1,4 @@
-package com.configdriven.ratelimiter.storage;
+package com.vkteenvan.ratelimiter.storage;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;

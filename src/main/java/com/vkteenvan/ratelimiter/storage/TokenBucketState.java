@@ -1,4 +1,4 @@
-package com.configdriven.ratelimiter.storage;
+package com.vkteenvan.ratelimiter.storage;
 
 public final class TokenBucketState {
     private double tokens;

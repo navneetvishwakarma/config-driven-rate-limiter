@@ -1,4 +1,4 @@
-package com.configdriven.ratelimiter.storage;
+package com.vkteenvan.ratelimiter.storage;
 
 public final class FixedWindowState {
     private long windowStartEpochSeconds;

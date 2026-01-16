@@ -1,11 +1,11 @@
-package com.configdriven.ratelimiter.service;
+package com.vkteenvan.ratelimiter.service;
 
-import com.configdriven.ratelimiter.config.ClientConfig;
-import com.configdriven.ratelimiter.config.PolicyConfig;
-import com.configdriven.ratelimiter.core.RateLimitDecision;
-import com.configdriven.ratelimiter.core.RateLimitPolicy;
-import com.configdriven.ratelimiter.core.RequestContext;
-import com.configdriven.ratelimiter.storage.StateStore;
+import com.vkteenvan.ratelimiter.config.ClientConfig;
+import com.vkteenvan.ratelimiter.config.PolicyConfig;
+import com.vkteenvan.ratelimiter.core.RateLimitDecision;
+import com.vkteenvan.ratelimiter.core.RateLimitPolicy;
+import com.vkteenvan.ratelimiter.core.RequestContext;
+import com.vkteenvan.ratelimiter.storage.StateStore;
 
 import java.time.Instant;
 import java.util.List;

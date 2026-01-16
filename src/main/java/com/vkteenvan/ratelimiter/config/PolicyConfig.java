@@ -1,6 +1,6 @@
-package com.configdriven.ratelimiter.config;
+package com.vkteenvan.ratelimiter.config;
 
-import com.configdriven.ratelimiter.core.PolicyType;
+import com.vkteenvan.ratelimiter.core.PolicyType;
 
 public record PolicyConfig(
         String id,

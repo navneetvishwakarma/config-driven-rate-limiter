@@ -1,4 +1,4 @@
-package com.configdriven.ratelimiter.core;
+package com.vkteenvan.ratelimiter.core;
 
 import java.time.Instant;
 

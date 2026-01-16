@@ -1,4 +1,4 @@
-package com.configdriven.ratelimiter.core;
+package com.vkteenvan.ratelimiter.core;
 
 public record RateLimitDecision(boolean allowed, RejectionReason reason, Long retryAfterSeconds) {
     public static RateLimitDecision allow() {

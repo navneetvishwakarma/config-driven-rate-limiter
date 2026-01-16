@@ -1,6 +1,6 @@
-package com.configdriven.ratelimiter.core;
+package com.vkteenvan.ratelimiter.core;
 
-import com.configdriven.ratelimiter.storage.StateStore;
+import com.vkteenvan.ratelimiter.storage.StateStore;
 
 public interface RateLimitPolicy {
     RateLimitDecision evaluate(RequestContext context, StateStore store);

@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "com.configdriven"
+group = "com.vkteenvan"
 version = "0.1.0"
 
 java {

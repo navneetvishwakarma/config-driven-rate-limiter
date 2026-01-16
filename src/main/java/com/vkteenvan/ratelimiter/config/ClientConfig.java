@@ -1,4 +1,4 @@
-package com.configdriven.ratelimiter.config;
+package com.vkteenvan.ratelimiter.config;
 
 import java.util.List;
 
